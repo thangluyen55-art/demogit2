@@ -4,7 +4,34 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    .wufoo {
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
 <body>
+<form method="get" action="simpleform.html" class = "wufoo">
+    <h2>ORDER FORM</h2>
+    <P>WHAT WOULD YOU LIKE TO BUY?</P>
+    <select>
+        <option value= " "   > A </option>
+        <option> B (+  0.5$) </option>
+        <option> C (+  0.5$) </option>
+    </select>
+       <p> How many would you like to order? </p>
+    <input type="radio" name = "rd"/> 1 -15$ <br>
+    <input type="radio" name = "rd"/> 2 -20$ <br>
+    <input type="radio" name = "rd"/> 3 -25$  <br>
+    <p>Name <span style = "color: red">*</span></p>
+    <input type="text" name = "Firstname" placeholder = "Enter your first name" size = "15" />
+    <input type="text" name = "Lastname" placeholder = "Enter your last name" size = "15" />
+    <p> Email </p>
+    <input type="text" name = "Email" placeholder = "Email" size = "30" />
+    <p> Phone </p>
+    <input type="text" name = "Phone" placeholder = "Phone" size = "30" />
+    <p><input type="button" name = "Submit" value="Submit" /></p>
+
+</form>
 
 </body>
 </html>
